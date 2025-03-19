@@ -9,6 +9,8 @@ This script extracts the AWS Account ID from a given AWS Access Key ID without r
 <br>Applies bitwise operations to filter the relevant bits.<br/>
 <br>Returns the AWS Account ID in a 12-digit format.<br/>
 
+# Usage
+Run the script and pass an AWS Access Key ID: python aws_account_extractor.py
 
 # Security Implications
 <br>This method can be used for reconnaissance in security assessments and red teaming.<br/>
