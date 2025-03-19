@@ -6,8 +6,6 @@ This script extracts the AWS Account ID from a given AWS Access Key ID without r
 <br>Trims the first 4 characters of the Access Key ID (e.g., AKIA prefix).<br/>
 <br>Decodes the remaining characters using Base32 decoding.<br/>
 <br>Extracts the first 6 bytes from the decoded key.<br/>
-<br>Extracts the first 6 bytes from the decoded key.<br/>
-<br>Extracts the first 6 bytes from the decoded key.<br/>
 <br>Applies bitwise operations to filter the relevant bits.<br/>
 <br>Returns the AWS Account ID in a 12-digit format.<br/>
 
