@@ -2,7 +2,7 @@
 This script extracts the AWS Account ID from a given AWS Access Key ID without requiring authentication. AWS Access Key IDs are Base32-encoded, and they contain embedded metadata, including the associated AWS Account ID. This script decodes the key and applies bitwise operations to reveal the 12-digit AWS Account ID.
 
 # How It Works
-Trims the first 4 characters of the Access Key ID (e.g., AKIA prefix).
+<br>Trims the first 4 characters of the Access Key ID (e.g., AKIA prefix).<br/>
 Decodes the remaining characters using Base32 decoding.
 Extracts the first 6 bytes from the decoded key.
 Applies bitwise operations to filter the relevant bits.
